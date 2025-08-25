@@ -1,0 +1,38 @@
+import React from 'react'
+import './Contact.css'
+
+const Contact = () => {
+  return (
+    <div className="contact">
+      {/* Left form */}
+      <div className="form-section">
+        <h2>Create an account</h2>
+        <p>Sign up and get 30 day free trial</p>
+
+        <div className="form-group">
+          <input type="text" placeholder="Full name" />
+        </div>
+        <div className="form-group">
+          <input type="email" placeholder="Email" />
+        </div>
+        <div className="form-group">
+          <input type="password" placeholder="Password" />
+        </div>
+
+        <button type="submit">Submit</button>
+
+        <div className="social-login">
+          <button> Apple</button>
+          <button>Google</button>
+        </div>
+      </div>
+
+      {/* Right image */}
+      <div className="image-section">
+        <div className="overlay"></div>
+      </div>
+    </div>
+  )
+}
+
+export default Contact
