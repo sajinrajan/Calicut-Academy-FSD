@@ -10,6 +10,8 @@ import shoosSit from '../../assets/assets/shoosSit.jpg';
 import SottilSit from '../../assets/assets/SottilSit.jpg';
 import las from '../../assets/assets/las.jpg';
 import ice from '../../assets/assets/ice.jpg';
+import house from '../../assets/assets/house.jpg';
+import traval from '../../assets/assets/traval.jpg';
 
 const WebsiteDisplay = () => {
   return (
@@ -109,8 +111,28 @@ const WebsiteDisplay = () => {
           <p>Click here to add a new section to your website.</p>
         </div>
         <button value={SubmitEvent}> More</button>
+      </div>
+
+      <div className="image-add-section">
+        <div className="add-section-text">
+          <img src={house} alt="" />
+          <h2>House.</h2>
+          <p>Click here to add a new section to your website.</p>
+        </div>
+        <button value={SubmitEvent}> More</button>
 
       </div>
+
+      <div className="image-add-section">
+        <div className="add-section-text">
+          <img src={traval} alt="" />
+          <h2>Travel</h2>
+          <p>Click here to add a new section to your website.</p>
+        </div>
+        <button value={SubmitEvent}> More</button>
+
+      </div>
+      
     </div>
   );
 };
