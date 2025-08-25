@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import contact from '../../assets/assets/contact.jpg'
 
 const Contact = () => {
   return (
@@ -28,8 +29,8 @@ const Contact = () => {
       </div>
 
       {/* Right image */}
-      <div className="image-section">
-        <div className="overlay"></div>
+      < div className="image-section">
+            <img src={contact} alt="contact" />
       </div>
     </div>
   )
